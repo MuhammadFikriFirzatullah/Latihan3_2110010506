@@ -4,7 +4,7 @@ public class Lingkaran {
     public double radius;
     
      public Lingkaran(double radius){
-        this.radius = radius;
+        this.radius = radius;   
     }
     
     //membuat method luas dan keliling

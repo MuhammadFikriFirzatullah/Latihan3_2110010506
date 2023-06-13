@@ -1,22 +1,19 @@
 package geometri;
 
 public class PersegiPanjang {
-    public double panjang, lebar;
+    private double panjang;
+    private double lebar;
     
-    public PersegiPanjang(double panjang, double lebar){
+    public PersegiPanjang(double panjang, double lebar) {
         this.panjang = panjang;
         this.lebar = lebar;
-        
-        //membuat method luas dan keliling
-    public double panjang(){
+    }
+    
+    public double luas() {
         return panjang * lebar;
     }
-        
-    public double lebar(){
-        return 2 * (panjang + lebar);
-    }
     
+    public double keliling() {
+        return 2 *(panjang + lebar);
     }
-
-    
 }
