@@ -9,11 +9,11 @@ public class PersegiPanjang {
         this.lebar = lebar;
     }
     
-    public double luas() {
+    public double luasPersegiPanjang() {
         return panjang * lebar;
     }
     
-    public double keliling() {
+    public double kelilingPersegiPanjang() {
         return 2 *(panjang + lebar);
     }
 }

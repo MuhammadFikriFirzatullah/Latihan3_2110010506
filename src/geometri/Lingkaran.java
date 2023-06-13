@@ -8,11 +8,11 @@ public class Lingkaran {
     }
     
     //membuat method luas dan keliling
-    public double luas(){
+    public double luasLingkaran(){
         return Math.PI * radius * radius;
     }
         
-    public double keliling(){
+    public double kelilingLingkaran(){
         return 2 * Math.PI * radius;
     }
     
